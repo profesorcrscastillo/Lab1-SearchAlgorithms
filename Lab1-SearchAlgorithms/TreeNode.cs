@@ -26,6 +26,9 @@ namespace Lab1_SearchAlgorithms
             ChildNodes = childNodes;
         }
 
+        /// <summary>
+        /// This method grabs all ChildNodes for this TreeNode
+        /// </summary>
         public void LoadChildNodes()
         {
             this.ChildNodes = new List<TreeNode>();
